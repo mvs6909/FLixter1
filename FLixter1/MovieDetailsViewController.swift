@@ -31,7 +31,7 @@ class MovieDetailsViewController: UIViewController {
         titleLabel.sizeToFit()
         
         
-        
+        //comment...
         synopsisLabel.text = movie["overview"] as? String
         
         synopsisLabel.sizeToFit()
